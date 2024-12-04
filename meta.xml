@@ -1,0 +1,23 @@
+<meta>
+	<info author="AtlasBox (lynconsix)" name="notification" type="misc" version="2.5.0" />
+
+	<file src="assets/background.png" />
+	<file src="assets/background_bottom.png" />
+	<file src="assets/background_top.png" />
+
+	<file src="assets/info.png" />
+	<file src="assets/error.png" />
+	<file src="assets/success.png" />
+
+	<file src="assets/regular.ttf" />
+
+	<script src="source/trigger.lua" type="server" />
+	<script src="source/configuration.lua" type="client" cache="false" />
+	<script src="source/useful.lua" type="client" cache="false" />
+	<script src="source/design.lua" type="client" cache="false" />
+	<script src="source/handlers.lua" type="client" cache="false" />
+
+	<export function="CreateNotification" type="shared" />
+
+	<min_mta_version client="1.5.7-9.20447" />
+</meta>
